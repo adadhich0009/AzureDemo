@@ -9,7 +9,7 @@ let doubledIds = ids.map((value) => {
     value = value *2;
     console.log(`value is ${value}`);
     return value;
-});
+});  
 
 console.log(doubledIds);
 doubledIds.filter(value => value %2 ===0).forEach((value) => console.log(`divide by 2  is ${value}`));
